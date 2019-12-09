@@ -10,16 +10,16 @@ int main(){
         price=quan*20;
     }
     else if(quan>9 && quan<20){
-        price=180+((quan-9)*20*0.8);
+        price=quan*16;
     }
     else if(quan>19 && quan<50){
-        price=340+((quan-19)*20*0.7);
+        price=quan*14;
     }
     else if(quan>49 && quan<100){
-        price=760+((quan-49)*20*0.6);
+        price=quan*12;
     }
     else if(quan>99){
-        price=1360+((quan-99)*20*0.5);
+        price=quan*10;
     }
     else{
         cout<<"Invalid Number.";
